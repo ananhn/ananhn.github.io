@@ -1,0 +1,172 @@
+/*general style*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'Playfair Display',serif;
+    font-style: italic;
+}
+
+body {
+  background-color: #dfc49b;
+  color:#5a5345 ;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.page-title {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.page-title h1 {
+  font-size: 3rem;
+  font-weight: 300;
+  color:#9b7d61;
+}
+
+.section-title {
+  font-size: 2.2rem;
+  font-weight: 300;
+  color: #9b7d61;
+  margin-bottom: 40px;
+}
+
+/* Shared Section Styles */
+.rose-section,
+.tulip-section {
+  padding: 60px 20px;
+  background-color: #fce8d5;
+  text-align: center;
+}
+
+.otherflower-section {
+  padding: 60px 20px;
+  background-color: #fce8d5;
+  text-align: center;
+}
+
+/* Shared Grid Layout */
+.rose-grid,
+.tulip-grid,
+.otherflower-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 40px;
+}
+
+/* Shared Card Styles */
+.rose-card,
+.tulip-card,
+.otherflower-card {
+  background-color: #fff9f0;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.rose-card:hover,
+.tulip-card:hover,
+.otherflower-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.rose-card img,
+.tulip-card img,
+.otherflower-card img {
+  width: 200px;
+  height: 300px;
+  border-radius: 14px;
+  margin-bottom: 15px;
+}
+
+.rose-card h3,
+.tulip-card h3,
+.otherflower-card h3 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #9b7d61;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+}
+
+.rose-card p,
+.tulip-card p,
+.otherflower-card p {
+  color:#9b7d61;
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+
+.rose-card button,
+.tulip-card button,
+.otherflower-card button {
+  background-color: bisque;
+  color: #000;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.rose-card button:hover,
+.tulip-card button:hover,
+.otherflower-card button:hover {
+  background-color: #e6c8a1;
+  color: #5a4534;
+}
+
+/* Footer */
+footer {
+  background-color: #684627;
+  color: #f2e8d9;
+  padding: 40px 20px;
+}
+
+.footer-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 40px;
+}
+
+.footer-column h3 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 20px;
+  color: #fed8a6;
+}
+
+.footer-column p,
+.footer-column a {
+  color: #fed8a6;
+  margin-bottom: 10px;
+  display: block;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-column a:hover {
+  color: #f8e7d1;
+}
+
+.footer-column p:last-child {
+  margin-bottom: 0;
+}
+
+.copyright {
+  text-align: center;
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 1px solid #86735e;
+  font-size: 0.9rem;
+  color: #fed8a6;
+}
