@@ -1,0 +1,144 @@
+/*reset style*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Playfair Display',serif;
+    font-style: italic;
+  }
+  
+  body {
+    background-color:#dfc49b;
+    color: #9b7d61;
+  }
+ /*contact section styling*/
+ .contact-section {
+    padding: 20px 0;
+    background-color: #daa38f;
+  }
+  
+  .contact-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: center;
+  }
+  
+  .contact-content h2 {
+    font-size: 2.2rem;
+    font-weight: 300;
+    color: #fff4e6;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  .contact-content p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #fff4e6;
+  }
+  
+  .contact-image {
+    border-radius: 10px;
+    overflow: hidden;
+    min-height: 300px;
+  }
+  
+  .contact-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+.contact-form {
+    max-width: 500px;
+   margin-top: 10px;
+    background-color:#fff4e6;
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.contact-form label {
+    display: block;
+    margin-bottom: 1em;
+    font-weight: bold;
+    color: #5a4e3c;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 0.75em;
+    margin-top: 0.25em;
+    border: 1px solid #d1bfa7;
+    border-radius: 5px;
+    font-size: 1em;
+    background-color: #fffefc;
+    color: #333;
+}
+
+.contact-form textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+.contact-form .button {
+    margin-top: 1em;
+    padding: 0.75em 1.5em;
+    background-color: #b89b5e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form .button:hover {
+    background-color: #d1b67f;
+}
+
+/*footer styling*/
+  footer {
+    background-color: #684627;
+    color: #fed8a6;
+    padding: 40px 0;
+  }
+  
+  .footer-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 40px;
+  }
+  
+  .footer-column h3 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: #fed8a6;
+  }
+  
+  .footer-column p,
+  .footer-column a {
+    color: #fed8a6;
+    margin-bottom: 10px;
+    display: block;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .footer-column a:hover {
+    color: #f8e7d1;
+  }
+  
+  .copyright {
+    text-align: center;
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid #86735e;
+    font-size: 0.9rem;
+    color: #fed8a6;
+  }
