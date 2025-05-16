@@ -1,0 +1,227 @@
+/* reset style*/
+*{
+    margin:0;
+    padding:0;
+    Box-sizing: border-box;
+    font-family:'Playfair Display',serif;
+    font-style: italic;
+}
+
+body{
+    background-color:#dfc49b;
+    color:#9b7d61;
+}
+
+.container{
+    max-width:1200px;
+    margin:auto;
+    padding: 20px;
+}
+/*hero styling*/
+.hero{
+    background-image: url(floraimg.jpeg);
+    background-size: cover;
+    background-position: center;
+    padding: 100px;
+    text-align: center;
+    position: relative;
+}
+
+.hero-content{
+    position: relative;
+    z-index: 1;
+}
+
+.hero h1{
+    font-size: 3.5rem;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+/*fast selling styling*/
+.fastselling-section{
+    padding: 60px;
+    text-align: center;
+    background-color: #E9CFB9;
+}
+
+.section-title{
+    font-size: 2.2rem;
+    font-weight: 300;
+    color:#fdf2e8;
+    margin-bottom: 40px;
+}
+
+.bouquet-grid{
+    display: flex;
+    flex-wrap: wrap;
+    gap:30px;
+    margin-bottom:40px;
+    justify-content: center;
+}
+
+.bouquet-card{
+    background-color: #fff9f0;
+    border-radius: 10px;
+    box-shadow: 4px;
+    padding: 20px;
+    width:250px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.bouquet-card:hover{
+    transform:translateY(-5px);
+}
+
+.bouquet-card img{
+    width:200px;
+    height:300px;
+    border-radius: 14px;
+    margin-bottom: 15px;
+}
+
+.bouquet-card h3{
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom:10px;
+}
+
+.bouquet-card p{
+    color:#86735e;
+    margin-bottom: 15px;
+}
+
+.bouquet-card button{
+    background-color: bisque;
+    color: #000000;
+    border: none;
+    padding: 10px;
+    font-size: 1rem;
+    cursor:pointer;
+    border-radius: 5px;
+    transition:0.3s ease;
+    display:inline-block;
+    margin-top: 15px;
+    text-decoration: none;
+}
+
+.bouquet-card button:hover{
+    background-color: #877b65;
+}
+/*promise section styling*/
+
+.promise-section{
+    background-color:#daa38f;
+    padding: 60px;
+    text-align: center;
+}
+
+.promise-content{
+    max-width: 800px;
+    margin:auto;
+}
+
+.promise-icons{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.promise-icon{
+    flex:1;
+    min-width: 120px;
+    margin:15px;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+.icon-circle {
+    width: 80px;
+    height: 80px;
+    background-color: #fff9f0;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.icon-circle img {
+    width: 100px;
+    height: 100px;
+}
+
+.promise-icon p {
+    font-size: 1rem;
+}
+
+/*button styling*/
+
+.learn-more-btn {
+    background-color: #7c6f50;
+    color: #fffaf0;
+    border: none;
+    padding: 12px 25px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 40px;
+}
+
+.learn-more-btn:hover {
+    background-color: #5a5345;
+    color: #ffffff;
+}
+
+.action-button {
+    text-align: center;
+}
+
+/*footer styling*/
+footer {
+    background-color: #684627;
+    color: #fed8a6;
+    padding: 40px 0;
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 40px;
+    padding-bottom: 20px;
+}
+
+.footer-column h3 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: #fed8a6;
+}
+
+.footer-column p, .footer-column a {
+    color: #fed8a6;
+    margin-bottom: 10px;
+    display: block;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-column a:hover {
+    color: #f8e7d1;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 60px;
+    padding-top: 20px;
+    border-top: 1px solid #86735e;
+    font-size: 0.9rem;
+    color: #fed8a6;
+  
+}
